@@ -11,7 +11,7 @@ You can still submit a PR! PLEASE DO! (It will take 5 minutes.) D-Rod is a teach
 
 1. Create a Github account at https://github.com. (Straightforward, but reach out to me if you need assistance! You just need to provide an email.)
 2. Visit the repo at https://github.com/pnewsam/bye-drod and click on the "README.md" file.
-![1](instructions/1.png)
+![1](instructions/1.png) 
 3. Click the edit icon to "Edit the file in your fork of this project".
 ![2](instructions/2.png)
 4. Add or remove a space ANYWHERE in the file editor.
