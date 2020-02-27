@@ -44,3 +44,92 @@ body {
 .section {
   padding-top: 40px;
 }
+
+.sip {
+  font-size: 12px;
+  position: fixed;
+  right: 100px;
+  top: 75px;
+}
+
+.polarButton {
+  cursor: pointer;
+  height: 100px;
+  position: fixed;
+  right: 0;
+  top: 50px;
+  width: 100px;
+}
+
+.partyBoat {
+  position: relative;
+}
+
+.boatPiece {
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.rotatoPotato {
+  animation: rotatoPotato 2s infinite linear;
+}
+
+.bombsAway {
+  animation: bombsAway 1s linear;
+}
+
+.vroom {
+  animation: vroom 3s linear;
+}
+
+.thePolarCouncil {
+  animation: thePolarCouncil 3s linear;
+  display: none;
+  left: 0;
+  position: fixed;
+  top: 50%;
+  width: 100%;
+}
+
+@keyframes thePolarCouncil {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes vroom {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes rotatoPotato {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes bombsAway {
+  from {
+    top: 50px;
+    right: 0;
+    transform: rotate(0deg);
+  }
+  to {
+    top: 80%;
+    right: 80%;
+    transform: rotate(359deg);
+  }
