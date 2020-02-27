@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     idiotVideo.classList.remove("hidden");
     idiotVideo.play();
   })
+  browserNotificationToast();
 });
 
 function byebyeBoat() {
@@ -98,4 +99,10 @@ function popTheChampagne() {
     createHullTop()
     createHullBottom()
   }, 3000)
+}
+
+function browserNotificationToast() {
+  var x = document.getElementById("toast")
+  x.className = "show";
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 5000);
 }
