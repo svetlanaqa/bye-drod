@@ -18,7 +18,7 @@ You may also need to be added as a collaborator. Ping me if so.
 2. (Optional) Make edits to the website! Anything is welcome. Encouraged are: words of inspiration or heartfelt emotion, memes, pictures of D-Rod or things he likes, head-scratching haikus, marquees and other reminders of early HTML, unnecessary animations, unnecessary assets, insidious or mischievious scripts (but not too insidious, plox). Everything is FAIR GAME! I will ship anything as soon as I see it -- I'll ping you if you have merge conflicts but please resolve them yourself 🙏🏼!
 
 ## **IMPORTANT! IF YOU ARE NOT DEVELOPER/HAVE NOT USED GIT BEFORE:**
-
+ 
 You can still submit a PR! PLEASE DO! (It will take 5 minutes.) D-Rod is a teacher and he would love love love seeing commits from non- (aka. fledgling) developers 🙂. Here's how:
 
 1. Create a Github account at https://github.com. (Straightforward, but reach out to me if you need assistance! You just need to provide an email.)
