@@ -5,6 +5,16 @@ See the Website (as yet): https://pnewsam.github.io/bye-drod/
 # Instructions
 
 1. Submit a PR with some inconsequential change (add/remove a space) and leave your farewell message in the git commit. That's it!
+
+Many people have been running into this error if they git clone then try pushing up a branch:
+```
+remote: Permission to pnewsam/bye-drod.git denied to UserNameHere.
+fatal: unable to access 'https://github.com/pnewsam/bye-drod.git/': The requested URL returned error: 403
+```
+
+If you do, you may need to follow these steps (fork, clone, push, create PR): https://stackoverflow.com/a/17857453
+You may also need to be added as a collaborator. Ping me if so.
+
 2. (Optional) Make edits to the website! Anything is welcome. Encouraged are: words of inspiration or heartfelt emotion, memes, pictures of D-Rod or things he likes, head-scratching haikus, marquees and other reminders of early HTML, unnecessary animations, unnecessary assets, insidious or mischievious scripts (but not too insidious, plox). Everything is FAIR GAME! I will ship anything as soon as I see it -- I'll ping you if you have merge conflicts but please resolve them yourself 🙏🏼!
 
 ## **IMPORTANT! IF YOU ARE NOT DEVELOPER/HAVE NOT USED GIT BEFORE:**
