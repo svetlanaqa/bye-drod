@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     idiotVideo.play();
   })
   browserNotificationToast();
+  howToTellAPageIsHostedOnSquarespace();
 });
 
 function byebyeBoat() {
@@ -105,4 +106,13 @@ function browserNotificationToast() {
   var x = document.getElementById("toast")
   x.className = "show";
   setTimeout(function(){ x.className = x.className.replace("show", ""); }, 5000);
+}
+
+function howToTellAPageIsHostedOnSquarespace() {
+  document.onkeydown = function(evt) {
+    evt = evt || window.event;
+    if (evt.keyCode == 27) {
+      window.location.assign("https://login.squarespace.com");
+    }
+  };
 }
